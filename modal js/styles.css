@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(images/ay.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main , .others{
+    background-color: white;
+    width: 50%;
+    height: 30%;
+    margin: auto;
+    margin-top: 12rem;
+    border-radius: .88rem;
+}
+.main h2 , .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 6rem;
+}
+
+.main .btn{
+    padding-bottom: 2rem;
+}
+
+.main button{
+    width: 5rem;
+    height: 2rem;
+    font-weight: bold;
+
+}
+
+.main button:hover{
+    cursor: pointer;
+}
+
+
+/*others*/
+.other{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(73, 166, 233, 0.5);
+/* display: grid;
+place-items: center; */
+visibility: hidden;
+z-index: -10;
+}
+
+.others h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 6rem;
+}
+
+.others button{
+    width: 5rem;
+    height: 2rem;
+    font-weight: bold;
+
+}
+.others button:hover{
+    cursor: pointer;
+}
+.others p{
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+}
+.others span{
+    color: aquamarine;
+}
